@@ -79,3 +79,22 @@
   // [Gabriel Prando Prando]
   ```
 
+### Definição de função
+- Usamos a tag defn, seguido do nome da função e seus parâmetros  
+  Ex: 
+```clj
+(defn imprime-mensagem []
+  (println "Hello World!"))
+
+(imprime-mensagem)
+// Hello World!
+```
+- Podemos receber parâmetros
+  Ex: 
+```clj
+(defn imprime-mensagem [nome-pessoa]
+  (println "Hello" nome-pessoa))
+
+(imprime-mensagem "Gabriel")
+// Hello Gabriel
+```
